@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  square_service:
+    build: .
+
+
+# Run the docker composer file using command: "docker-compose up"
+# Run the docker composer file in background mode "docker-compose up -d"
+# Stop the services, Using docker composer by command "docker-compose down"
+
+
+
+#build:
+#  context: .
+#  dockerfile: Dockerfile
+
+#Run the above three line code with following command "docker-compose build"
